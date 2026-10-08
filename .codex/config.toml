@@ -1,0 +1,7 @@
+[[hooks.SessionStart]]
+
+[[hooks.SessionStart.hooks]]
+type = "command"
+command = '"$(git rev-parse --show-toplevel)/scripts/daily-briefing.sh"'
+timeout = 30
+statusMessage = "Daily briefing"

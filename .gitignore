@@ -1,0 +1,10 @@
+# Machine-local agent settings (shared config lives in .claude/settings.json)
+.claude/settings.local.json
+
+# Node deps for bundled tooling
+node_modules/
+
+# Local secrets (defense in depth — secrets must never live in this repo)
+*.secret
+.env
+.env.*
